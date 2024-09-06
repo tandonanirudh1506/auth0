@@ -16,14 +16,8 @@ const NavBar = () => {
         <a className="button__login" href="/profile">
           Server Protected Profile
         </a>
-        <a className="button__login" href="/middleware">
-          Middleware Protected
-        </a>
         <a className="button__login" href="/auth-protected">
           Auth Protected
-        </a>
-        <a className="button__login" target="_black" href="/api/data">
-          Protected Api
         </a>
       </div>
       <div className="flex gap-4">
